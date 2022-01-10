@@ -1,0 +1,143 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>IPL Registration Form</title>
+    </head>
+    <body style=background-color:white>
+        <h1 align="center" style=color:red>IPL Auction 2021</h1>
+        <h2 align="center" style=color:blue>Registration Form for IPL 2021 Auction</h2>
+        <fieldset>
+            <legend>Registration Form For IPL 2021 Auction</legend>
+        <form>
+            <table>
+                <tr>
+                   <th><label for="fname">FULL NAME</label></th>
+                    <td><input type="text" name="fname" id="fname" placeholder="Enter Fullname" required></td>
+                </tr>
+                <tr>
+                    <th><label for="username">USERNAME</label></th>
+                    <td><input type="text" name="uname" id="username" placeholder="Enter Username" required></td>
+                </tr>
+                <tr>
+                    <th><label for="pwd">PASSWORD</label></th>
+                    <td><input type="PASSWORD" name="password" id="pwd" placeholder="Enter Password" required></td>
+                </tr>
+                <tr>
+                   <th><label for="contact">CONTACT NO</label></th>
+                    <td><input type="number" name="contact" id="contact" placeholder="Enter Contact" required></td>
+                </tr>
+                <tr>
+                    <th><label for="date of birth">D.O.B</label></th>
+                    <td><input type="date" name="dob" id="date of birth" required></td>
+                </tr>
+                <tr>
+                    <th>GENDER</th>
+                    <td>
+                        <input type="radio" name="gender" value="male" id="male"/>
+                        <label for="male">Male</label>
+
+                        <input type="radio" name="gender" value="female" id="female"/>
+                        <label for="female">Female</label>
+                    </td>
+                </tr>
+                <tr>
+                    <th><label for="email">EMAIL</label></th>
+                    <td><input type="email" name="email" id="email" placeholder="Enter Email" required></td>
+                </tr>
+                <tr>
+                    <th>PHOTO</th>
+                    <td><input type="file" name="profile photo" id="photo" required></td>
+                </tr>
+                <tr>
+                    <th>PLAYER TYPE</th>
+                    <td>
+                        <input type="radio" name="player_type" value="domestic" id="domestic"/>
+                        <label for="domestic">Domestic</label>
+                        <input type="radio" name="player_type" value="overseas" id="overseas"/>
+                        <label for="overseas">Overseas</label>
+                    </td>
+                </tr>
+                <tr>
+                    <th><label for="Role">ROLE</label></th>
+                    <td>
+                        <input type="checkbox" name="role" value="batsmamn" id="batsman"/>
+                        <label for="batsman">Batsman</label>
+
+                        <input type="checkbox" name="role" value="bowler" id="bowler"/>
+                        <label for="bowler">Bowler</label>
+
+                        <input type="checkbox" name="role" value="all-rounder" id="allrounder"/>
+                        <label for="allrounder">All-rounder</label>
+
+                        <input type="checkbox" name="role" value="wk" id="wk"/>
+                        <label for="wk">Wicket-Keeper</label>
+                    </td>
+                </tr>
+                <tr>
+                    <th>BASE PRICE</th>
+                    <td>
+                        <input type="radio" name="base price" id="25lac">
+                        <label for=25lac>25L</label>
+                        <input type="radio" name="base price" id="50lac">
+                        <label for=50lac>50L</label>
+                        <input type="radio" name="base price" id="1cr">
+                        <label for=1cr>1CR</label>
+                    </td>
+                    </td>
+                </tr>
+                <tr>
+                    <th>STATE</th>
+                    <td>
+                        <select name="state" id="state">
+                         <option value="maharashtra">Maharashtra</option>
+                         <option value="tamilnadu">Tamilnadu</option>
+                         <option value="delhi">Delhi</option>
+                         <option value="gujrat">Gujrat</option>
+                         <option value="rajasthan">Rajasthan</option>
+                         <option value="assam">Assam</option>  
+                         <option value="foreign country">Foreign Country</option> 
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Country</th>
+                    <td>
+                        <select name="country" id="country">
+                          <option value="india">India</option>  
+                          <option value="australia">Australia</option> 
+                          <option value="south africa">South Africa</option>
+                          <option value="england">England</option>
+                          <option value="afghanistan">Afghanistan</option>
+                          <option value="newzeland">New zeland</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <th>FAV FRANCHISE</th>
+                    <td>
+                        <select name="franchise" id="franchise">
+                        <option value="mi">MI</option>
+                        <option value="csk">CSK</option>
+                        <option value="kxip">KXIP</option>
+                        <option value="kkr">KKR</option>
+                        <option value="rcb">RCB</option>
+                        <option value="dc">DC</option>
+                        <option value="srh">SRH</option>
+                        <option value="rr">RR</option>
+                      </select>
+                    </td>
+                </tr>
+                <tr>
+                    <th><label for="adds">ADDRESS</label></th>
+                    <td><textarea name="address" id="adds" cols="30" rows="5"></textarea></td>
+                </tr>
+                <tr align="center">
+                    <td><input type="submit" name="register" value="Submit"></td>
+                </tr>
+
+            </table>
+        </form>
+    </fieldset>
+    </body>
+</html>
